@@ -227,7 +227,7 @@
         <div class="contact-separator"></div>
         <p class="contact-family-note">Jsme <strong>rodinná firma</strong>, takže každá poptávka jde přímo k nám. Ozveme se zpravidla do 24 hodin.</p>
       </div>
-      <div class="contact-form">
+      <form class="contact-form" action="https://formspree.io/f/mpqezbdz" method="POST">
         <div class="form-row">
           <div class="form-group"><label>Jméno</label><input type="text" placeholder="Vaše jméno"></div>
           <div class="form-group"><label>Firma</label><input type="text" placeholder="Název firmy"></div>
@@ -246,8 +246,8 @@
           </select>
         </div>
         <div class="form-group"><label>Zpráva</label><textarea placeholder="Popište stručně váš požadavek nebo dotaz..."></textarea></div>
-        <button class="btn-primary" style="align-self:flex-start;" onclick="alert('Děkujeme za zprávu! Ozveme se do 24 hodin.')">Odeslat poptávku</button>
-      </div>
+        <button type="submit" class="btn-primary" style="align-self:flex-start;">Odeslat poptávku</button>
+      </form>
     </div>
   </div>
 </section>
